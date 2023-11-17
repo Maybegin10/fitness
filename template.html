@@ -8,13 +8,16 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles.min.css">
 	<link rel="shortcut icon" href="images/favicon.ico"> 
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
+
+	<!-- Skip to Content Link -->
+	<a class="skip" href="#content">Skip to Content</a>
 
 	<div id="container">
 	
@@ -58,14 +61,22 @@
 		</nav>
 		
 		 <!-- Use the main area to add the main content of the webpage --> 
-		<main>
+		<main id="content">
 		</main>
 		
 		<!-- Use the footer area to add webpage footer content -->
 		<footer>
-			<p>&copy; Copyright 2021. All Rights Reserved.</p>
+		
+			<div class="copyright">
+				<p>&copy; Copyright 2021. All Rights Reserved.</p>
 				
-			<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+				<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+			</div>
+			
+			<div class="social">
+				<a href="https://www.facebook.com/fwdfitclub" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://twitter.com/fwdfitclub" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+			</div>
 		</footer>
 
 		<script src="scripts/script.js"></script>
